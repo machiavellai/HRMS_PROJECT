@@ -1,0 +1,50 @@
+{
+  "name": "hrms-project-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.5.0",
+    "eslint": "^7.11.0",
+    "formik": "^2.2.9",
+    "js-convert-case": "^4.1.2",
+    "node-sass": "^8.0.0",
+    
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.9.0",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^7.0.4",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "lint": "eslint .",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

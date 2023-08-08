@@ -1,0 +1,31 @@
+@import '../../App.scss';
+
+$color: #4b3ff2;
+$white: #edeef2;
+$small-size-3: 0.875rem;
+$medium-size: 1rem;
+$light: #d0d7e7;
+
+.custom-navbar {
+  background-color: $color;
+  padding: 1rem 2rem;
+
+  .navbar-brand {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: $white;
+    font-size: $medium-size;
+  }
+
+  .navbar-nav .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: $white;
+    font-size: $small-size-3;
+    margin-right: 1.5rem;
+
+    &:hover {
+      color: $light;
+    }
+  }
+}
