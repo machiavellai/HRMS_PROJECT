@@ -18,7 +18,6 @@ const Sidebar = () => {
   };
 
   return (
-    
     <nav className={`sidebar ${isOpen ? "open" : ""}`}>
       <div
         className={`sidebar-toggle ${isOpen ? "open" : ""}`}
@@ -54,7 +53,7 @@ const Sidebar = () => {
             activeClassName="active"
           >
             <BiBriefcase className="icon" />
-            Recruitment
+            Recruit/JobAdverts
           </NavLink>
         </li>
         <li className="nav-item">

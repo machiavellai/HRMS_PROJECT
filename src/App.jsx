@@ -8,6 +8,7 @@ import Footer from "./layouts/Footer/Footer";
 import Signup from "./pages/Home/Signup";
 import Login from "./pages/Home/Login";
 import Home from "./pages/Home/Home";
+import JobAdverts from "./pages/JobAdverts/JobAdverts";
 // import Navbar from "./layouts/Navbar/Navbar";
 import employeeTable from "./pages/Employers/employeeTable";
 import { ToastContainer } from "react-toastify";
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/employeetable" component={employeeTable} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/home" component={Home} />
+            <Route exact path="/jobAdverts" component={JobAdverts} />
           </Switch>
         </main>
         <ToastContainer
