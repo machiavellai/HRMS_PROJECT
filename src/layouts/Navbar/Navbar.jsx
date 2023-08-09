@@ -17,7 +17,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light py-4">
       <div className="container">
         <Link to="/" className="navbar-brand fs-2 fw-bold">
-          HRMS <span className="text-secondary">Project</span>
+          IN<span className="text-secondary">HIRES</span>
         </Link>
         <button
           className="navbar-toggler"

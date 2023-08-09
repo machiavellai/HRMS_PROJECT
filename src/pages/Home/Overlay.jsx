@@ -4,6 +4,7 @@ import overlayVector from "../../assets/images/overlay-vector.svg";
 export default function Overlay() {
   return (
     <div className="card-wrapper">
+      <h1 className="wrapper-text">JOB STATISTICS</h1>
       <div className="card-content">
         <div className="info-section">
           <h2>Total Employees</h2>

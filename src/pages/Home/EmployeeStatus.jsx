@@ -76,7 +76,7 @@ export default function EmployeeStatus() {
             <td>Michael Johnson</td>
             <td>Full-time</td>
             <td>789 Oak St</td>
-            <td className="status-red">Resigned</td>
+            <td className="status-red">Offboarding</td>
           </tr>
           <tr>
             <td>Designer</td>
@@ -104,7 +104,7 @@ export default function EmployeeStatus() {
             <td>Michael Johnson</td>
             <td>Full-time</td>
             <td>789 Oak St</td>
-            <td className="status-red">Resigned</td>
+            <td className="status-red">Offboarding</td>
           </tr>
         </tbody>
       </table>
