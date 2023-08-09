@@ -1,0 +1,73 @@
+.about-us-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  
+    .app-name {
+      font-size: 2.5rem;
+      color: #4b3ff2;
+      margin-bottom: 5px;
+    }
+  
+    .page-title {
+      font-size: 1.5rem;
+      color: #666;
+    }
+  }
+  
+  .company-info {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    .section-title {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #4b3ff2;
+      margin-bottom: 15px;
+    }
+  
+    .about-text {
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+  
+    .address-text,
+    .contact-text {
+      color: #666;
+      margin-bottom: 10px;
+    }
+  }
+  
+  .office-image {
+    text-align: center;
+    margin-top: 30px;
+  
+    .image-wrapper img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+  
+    .contact-details {
+      color: #888;
+  
+      a {
+        color: #4b3ff2;
+      }
+    }
+  }
+  

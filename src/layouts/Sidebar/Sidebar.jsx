@@ -30,10 +30,11 @@ const Sidebar = () => {
         )}
       </div>
       <ul className="nav flex-column">
+        <h2 className="sidebar-text">GENERAL</h2>
         <li className="nav-item">
           <NavLink exact to="/" className="nav-link" activeClassName="active">
             <BiHomeAlt className="icon" />
-            Home
+            Overview
           </NavLink>
         </li>
         <li className="nav-item">

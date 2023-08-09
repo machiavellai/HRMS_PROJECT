@@ -40,14 +40,14 @@ export default function EmployeeStatus() {
             <td>Manager</td>
             <td>John Doe</td>
             <td>Full-time</td>
-            <td>123 Main St</td>
+            <td>678 Walnut Lane, Brookside, NC 65432</td>
             <td className="status-green">Onboarding</td>
           </tr>
           <tr>
             <td>Developer</td>
             <td>Jane Smith</td>
             <td>Part-time</td>
-            <td>456 Elm St</td>
+            <td>456 Elm Avenue, Oakville, NY 54321</td>
             <td className="status-blue">Processed</td>
           </tr>
           <tr>
@@ -61,7 +61,7 @@ export default function EmployeeStatus() {
             <td>Designer</td>
             <td>Michael Johnson</td>
             <td>Full-time</td>
-            <td>789 Oak St</td>
+            <td>123 Main Street, Springfield, CA 12345</td>
             <td className="status-blue">Processed</td>
           </tr>
           <tr>
@@ -75,35 +75,35 @@ export default function EmployeeStatus() {
             <td>Designer</td>
             <td>Michael Johnson</td>
             <td>Full-time</td>
-            <td>789 Oak St</td>
+            <td>234 Birch Drive, Harmony, WA 23456</td>
             <td className="status-red">Offboarding</td>
           </tr>
           <tr>
             <td>Designer</td>
             <td>Michael Johnson</td>
             <td>Full-time</td>
-            <td>789 Oak St</td>
+            <td>123 Cherry Street, Appleton, PA 87654</td>
             <td className="status-blue">Processed</td>
           </tr>
           <tr>
             <td>Designer</td>
             <td>Michael Johnson</td>
             <td>Full-time</td>
-            <td>789 Oak St</td>
+            <td>987 Cedar Court, Woodland, AZ 76543</td>
             <td className="status-green">Onboarding</td>
           </tr>
           <tr>
             <td>Designer</td>
             <td>Michael Johnson</td>
             <td>Full-time</td>
-            <td>789 Oak St</td>
+            <td>567 Pine Street, Riverside, FL 67890</td>
             <td className="status-blue">Processed</td>
           </tr>
           <tr>
             <td>Designer</td>
             <td>Michael Johnson</td>
             <td>Full-time</td>
-            <td>789 Oak St</td>
+            <td>678 Walnut Lane, Brookside, NC 65432</td>
             <td className="status-red">Offboarding</td>
           </tr>
         </tbody>

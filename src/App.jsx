@@ -9,15 +9,13 @@ import Signup from "./pages/Home/Signup";
 import Login from "./pages/Home/Login";
 import Home from "./pages/Home/Home";
 import JobAdverts from "./pages/JobAdverts/JobAdverts";
-// import Navbar from "./layouts/Navbar/Navbar";
 import employeeTable from "./pages/Employers/employeeTable";
 import { ToastContainer } from "react-toastify";
-
+import AboutUs from "./pages/AboutCompany/AboutUs";
 function App() {
   return (
     <div id="App" className="d-flex flex-column">
       <Router>
-        {/* <Navbar /> */}
         <main>
           <Switch>
             <Route exact path="/signup" component={Signup} />
@@ -25,6 +23,7 @@ function App() {
             <Route exact path="/login" component={Login} />
             <Route exact path="/home" component={Home} />
             <Route exact path="/jobAdverts" component={JobAdverts} />
+            <Route exact path="/about" component={AboutUs} />
           </Switch>
         </main>
         <ToastContainer
