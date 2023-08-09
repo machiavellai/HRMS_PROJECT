@@ -5,20 +5,18 @@ import React from "react";
 import Steps from "./Steps";
 import Navbar from "../../layouts/Navbar/Navbar";
 import Sidebar from "../../layouts/Sidebar/Sidebar";
+import Footer from "../../layouts/Footer/Footer";
+import EmployeeStatus from "./EmployeeStatus";
 export default function Home() {
   return (
     <div className="container-fluid bg-white">
       <div className="container">
         <Navbar />
-        <Sidebar/>
         <Overlay />
-        <Steps />
-        <div className="text-center mb-5">
-          <Link to="/jobadvert" className="btn btn-primary rounded shadow">
-            Browse All
-          </Link>
-        </div>
+        <EmployeeStatus />
+        <Sidebar />
         <CreateAccountBanner />
+        <Footer />
       </div>
     </div>
   );

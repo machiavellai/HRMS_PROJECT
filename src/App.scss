@@ -12,7 +12,6 @@ $medium-size-3: 1.75rem;
 $large-size: 2.5rem;
 $large-size-2: 3.5rem;
 $large-size-3: 4.5rem;
-
 html,
 body,
 #root,
@@ -22,9 +21,98 @@ body,
 
 main {
   flex: auto;
-
   > * {
     flex: auto;
+  }
+}
+.form-wrapper {
+  height: 400px; /* Adjust the value as needed */
+  @extend .d-flex, .justify-content-center, .align-items-center, .rounded-2, .shadow;
+  max-width: 1900px;
+  flex-direction: column;
+  gap: 2rem;
+}
+.card-wrapper {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #3027ba;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    .info-section {
+      flex: 1;
+      padding: 1.5rem;
+      background-color: #f4f4f4;
+      border-radius: 0.25rem;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #333;
+        font-weight: bold;
+      }
+    }
+  }
+}
+.employee-card {
+  margin-top: 4rem;
+  max-width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+
+  .employee-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .employee-table {
+    max-width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+
+    th,
+    td {
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+
+    .status-green {
+      background-color: #6ac259;
+      color: white;
+    }
+
+    .status-blue {
+      background-color: #4e86e4;
+      color: white;
+    }
+
+    .status-red {
+      background-color: #e04c4c;
+      color: white;
+    }
   }
 }
 
@@ -40,7 +128,9 @@ body {
   width: 100%;
   border-collapse: collapse;
 }
-
+.row {
+  margin-top: auto;
+}
 .custom-table th {
   background-color: #f8f9fa;
   color: #343a40;
@@ -52,7 +142,10 @@ body {
   padding: 10px;
   text-align: center;
 }
-
+.custom-display-1 {
+  @extend .display-1; // Inherit styling from Bootstrap's display-1 class
+  font-size: 2rem; // Adjust the font size as needed
+}
 .custom-table td img {
   border-radius: 50%;
 }
@@ -84,25 +177,11 @@ $light: $color-3;
 .rounded-3 {
   border-radius: $medium-size-2 !important;
 }
-
 .input-group-text,
 .form-control,
 .btn,
 .btn-lg {
   @extend .rounded, .shadow;
 }
-
-.input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
-}
-
-.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),
-.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3) {
-  border-top-right-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
-}
-
 // Bootstrap Icons
 @import "~bootstrap-icons/font/bootstrap-icons.css";
