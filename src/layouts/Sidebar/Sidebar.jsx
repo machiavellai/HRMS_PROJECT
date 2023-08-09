@@ -32,14 +32,19 @@ const Sidebar = () => {
       <ul className="nav flex-column">
         <h2 className="sidebar-text">GENERAL</h2>
         <li className="nav-item">
-          <NavLink exact to="/" className="nav-link" activeClassName="active">
+          <NavLink
+            exact
+            to="/home"
+            className="nav-link"
+            activeClassName="active"
+          >
             <BiHomeAlt className="icon" />
             Overview
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink
-            to="/employees"
+            to="/employeetable"
             className="nav-link"
             activeClassName="active"
           >
@@ -49,7 +54,7 @@ const Sidebar = () => {
         </li>
         <li className="nav-item">
           <NavLink
-            to="/recruitment"
+            to="/jobAdverts"
             className="nav-link"
             activeClassName="active"
           >

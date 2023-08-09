@@ -51,35 +51,35 @@ export default function EmployeeStatus() {
             <td className="status-blue">Processed</td>
           </tr>
           <tr>
-            <td>Designer</td>
+            <td>Team Lead</td>
             <td>Michael Johnson</td>
             <td>Full-time</td>
             <td>789 Oak St</td>
             <td className="status-green">Onboarding</td>
           </tr>
           <tr>
-            <td>Designer</td>
-            <td>Michael Johnson</td>
+            <td>developer</td>
+            <td>Victor Oghene</td>
             <td>Full-time</td>
-            <td>123 Main Street, Springfield, CA 12345</td>
+            <td>10 Obadiah Street, Akoka, Lagos</td>
             <td className="status-blue">Processed</td>
           </tr>
           <tr>
             <td>Designer</td>
-            <td>Michael Johnson</td>
+            <td>thomas Shelby</td>
             <td>Full-time</td>
             <td>789 Oak St</td>
             <td className="status-green">Onboarding</td>
           </tr>
           <tr>
-            <td>Designer</td>
+            <td>DB amininistrator</td>
             <td>Michael Johnson</td>
             <td>Full-time</td>
             <td>234 Birch Drive, Harmony, WA 23456</td>
             <td className="status-red">Offboarding</td>
           </tr>
           <tr>
-            <td>Designer</td>
+            <td>developer</td>
             <td>Michael Johnson</td>
             <td>Full-time</td>
             <td>123 Cherry Street, Appleton, PA 87654</td>
@@ -93,15 +93,15 @@ export default function EmployeeStatus() {
             <td className="status-green">Onboarding</td>
           </tr>
           <tr>
-            <td>Designer</td>
-            <td>Michael Johnson</td>
+            <td>Buisness Analys</td>
+            <td>Oji Samuel</td>
             <td>Full-time</td>
             <td>567 Pine Street, Riverside, FL 67890</td>
             <td className="status-blue">Processed</td>
           </tr>
           <tr>
-            <td>Designer</td>
-            <td>Michael Johnson</td>
+            <td>Project Manager</td>
+            <td>chloe Davis</td>
             <td>Full-time</td>
             <td>678 Walnut Lane, Brookside, NC 65432</td>
             <td className="status-red">Offboarding</td>
